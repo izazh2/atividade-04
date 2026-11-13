@@ -1,0 +1,15 @@
+bd_aula_backend - ATIVIDADE 02 CODIFICACAO BACKEND (SENAI)
+
+Ordem de execucao (MySQL 5.7.8+ ou 8.x, por causa do tipo JSON):
+  02  -> cria o banco e as tabelas
+  03, 04, 05, 06, 07, 08, 09, 10 -> procedures, funcao e triggers
+  11  -> views
+  12  -> dados de teste (opcional; para tabelas vazias)
+
+Modelagem: 01_modelagem/modelagem_bd_aula_backend.mwb (MySQL Workbench)
+
+ATUALIZACAO:
+  13  -> (so para banco ja criado com o 02 antigo) troca entrada_produto.quantidade_entrada de DECIMAL para INT.
+
+Codigos de status do pedido (atendimento.status_atendimento):
+  A = Aberto | P = Em processamento | F = Concluido | C = Cancelado
